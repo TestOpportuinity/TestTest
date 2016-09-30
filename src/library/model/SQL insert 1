@@ -1,0 +1,8 @@
+insert into category (CATEGORY_NAME) values ('Python');
+insert into category (CATEGORY_NAME) values ('C');
+insert into category (CATEGORY_NAME) values ('Java');
+insert into category (CATEGORY_NAME) values ('System Operacyjne');
+
+insert into Author (ID, firstName, lastName) values (1, 'Vishal', 'Layka');
+
+insert into book (ISBN, CATEGORY_ID, BOOK_TITLE, AUTHOR_ID, PUBLISHER) values ('978-83-246-9806-6', 3, 'Java. Projektowanie aplikacji WWW', 1, 'Helion')
