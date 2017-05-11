@@ -4,9 +4,9 @@
  */
 package library.dao;
 
-import model.Author;
-import model.Book;
-import model.Category;
+import library.model.Author;
+import library.model.Book;
+import library.model.Category;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -111,7 +111,7 @@ public class BookDAOImplementation implements BookDAO
                 while (resultSet.next())
                 {
                     Book book = new Book();
-                    model.Author author = new model.Author();
+                    library.model.Author author = new library.model.Author();
                     book.setISBN(resultSet.getString("ISBN"));
                     book.setBookTitle(resultSet.getString("BOOK_TITLE"));
                     book.setCategoryId(resultSet.getLong("CATEGORY_ID"));

@@ -3,9 +3,9 @@
  */
 package library.main;
 
-import dao.BookDAO;
-import dao.BookDAOImplementation;
-import model.Book;
+import library.dao.BookDAO;
+import library.dao.BookDAOImplementation;
+import library.model.Book;
 
 import java.util.List;
 
