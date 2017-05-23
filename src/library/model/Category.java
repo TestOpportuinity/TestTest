@@ -30,6 +30,6 @@ public class Category
 
     public String toString()
     {
-        return "Kategoria - Identyfikator: " + Id + ", Nazwa Kategorii" + categoryName;
+        return "Kategoria - Identyfikator: " + Id + ", Nazwa Kategorii: " + categoryName;
     }
 }

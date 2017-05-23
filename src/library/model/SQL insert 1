@@ -2,7 +2,47 @@ insert into category (CATEGORY_NAME) values ('Python');
 insert into category (CATEGORY_NAME) values ('C');
 insert into category (CATEGORY_NAME) values ('Java');
 insert into category (CATEGORY_NAME) values ('System Operacyjne');
+INSERT INTO `category`(`CATEGORY_NAME`) VALUES ('Ajax')
+INSERT INTO `category`(`CATEGORY_NAME`) VALUES ('Algorytmy')
+INSERT INTO `category`(`CATEGORY_NAME`) VALUES ('Hacking i bezpieczeństwo')
+INSERT INTO `category`(`CATEGORY_NAME`) VALUES ('CSS')
+INSERT INTO `category`(`CATEGORY_NAME`) VALUES ('HTML')
 
 insert into Author (ID, firstName, lastName) values (1, 'Vishal', 'Layka');
+INSERT INTO `author`(`firstName`, `lastName`) VALUES ('Radosław','Sokół');
+INSERT INTO `author`(`firstName`, `lastName`) VALUES ('Michael','Morrison');
+INSERT INTO `author`(`firstName`, `lastName`) VALUES ('Steven','Olson');
+INSERT INTO `author`(`firstName`, `lastName`) VALUES ('Thomas H','Cormen');
+INSERT INTO `author`(`firstName`, `lastName`) VALUES ('Piotr','Wróblewski');
+INSERT INTO `author`(`firstName`, `lastName`) VALUES ('Harlan','Carvey');
+INSERT INTO `author`(`firstName`, `lastName`) VALUES ('Paul','Wolfe');
+INSERT INTO `author`(`firstName`, `lastName`) VALUES ('Andrew','Ford');
+INSERT INTO `author`(`firstName`, `lastName`) VALUES ('Vivek','Ramachandran');
+INSERT INTO `author`(`firstName`, `lastName`) VALUES ('Justin','Seitz');
+INSERT INTO `author`(`firstName`, `lastName`) VALUES ('Łukasz','Pasternak');
+INSERT INTO `author`(`firstName`, `lastName`) VALUES ('Kevin','Mitnick');
+INSERT INTO `author`(`firstName`, `lastName`) VALUES ('Michael James','Williams');
+INSERT INTO `author`(`firstName`, `lastName`) VALUES ('Patrick','Engebretson');
+INSERT INTO `author`(`firstName`, `lastName`) VALUES ('Jon','Erickson');
+INSERT INTO `author`(`firstName`, `lastName`) VALUES ('Jason','Tyler');
+INSERT INTO `author`(`firstName`, `lastName`) VALUES ('Zachary','Kessom');
+INSERT INTO `author`(`firstName`, `lastName`) VALUES ('Luke','Stevens');
+INSERT INTO `author`(`firstName`, `lastName`) VALUES ('Alan','Monnox');
+INSERT INTO `author`(`firstName`, `lastName`) VALUES ('Krzysztof','Rychlicki-Kicior');
+INSERT INTO `author`(`firstName`, `lastName`) VALUES ('Joshua','Bloch');
+INSERT INTO `author`(`firstName`, `lastName`) VALUES ('Anil','Hemrajani');
+INSERT INTO `author`(`firstName`, `lastName`) VALUES ('Noel','Kalicharan');
 
-insert into book (ISBN, CATEGORY_ID, BOOK_TITLE, AUTHOR_ID, PUBLISHER) values ('978-83-246-9806-6', 3, 'Java. Projektowanie aplikacji WWW', 1, 'Helion')
+insert into book (ISBN, CATEGORY_ID, BOOK_TITLE, AUTHOR_ID, PUBLISHER) values ('978-83-246-9806-6', 3, 'Java. Projektowanie aplikacji WWW', 1, 'Helion');
+insert into book (ISBN, CATEGORY_ID, BOOK_TITLE, AUTHOR_ID, PUBLISHER) values ('978-83-283-0253-2', 4, 'ABC Linux. Wydanie II', 2, 'Helion');
+insert into book (ISBN, CATEGORY_ID, BOOK_TITLE, AUTHOR_ID, PUBLISHER) values ('83-246-1393-5', 5, 'Ajax. Niezbędnik projektanta dynamicznych aplikacji', 3, 'Helion');
+insert into book (ISBN, CATEGORY_ID, BOOK_TITLE, AUTHOR_ID, PUBLISHER) values ('978-83-246-1110-2', 5, 'Ajax on Java', 4, 'Helion');
+insert into book (ISBN, CATEGORY_ID, BOOK_TITLE, AUTHOR_ID, PUBLISHER) values ('978-83-246-7482-4', 6, 'Algorytmy bez tajemnic', 5, 'Helion');
+insert into book (ISBN, CATEGORY_ID, BOOK_TITLE, AUTHOR_ID, PUBLISHER) values ('83-246-2306-X', 6, 'Algorytmy, struktury danych i techniki programowania. Wydanie IV', 6, 'Helion');
+insert into book (ISBN, CATEGORY_ID, BOOK_TITLE, AUTHOR_ID, PUBLISHER) values ('978-83-246-6652-2', 7, 'Analiza śledcza i powłamaniowa. Zaawansowane techniki prowadzenia analizy w systemie Windows 7. Wydanie III', 7, 'Helion');
+insert into book (ISBN, CATEGORY_ID, BOOK_TITLE, AUTHOR_ID, PUBLISHER) values ('83-7361-587-3', 7, 'Anti-Spam Tool Kit. Edycja polska', 8, 'Helion');
+insert into book (ISBN, CATEGORY_ID, BOOK_TITLE, AUTHOR_ID, PUBLISHER) values ('978-83-246-2179-8', 10, 'Apache 2. Leksykon kieszonkowy ', 9, 'Helion');
+insert into book (ISBN, CATEGORY_ID, BOOK_TITLE, AUTHOR_ID, PUBLISHER) values ('978-83-246-6682-9', 7, 'BackTrack 5. Testy penetracyjne sieci WiFi', 10, 'Helion');
+insert into book (ISBN, CATEGORY_ID, BOOK_TITLE, AUTHOR_ID, PUBLISHER) values ('978-83-283-1250-0', 1, 'Black Hat Python. Język Python dla hakerów i pentesterów', 11, 'Helion');
+insert into book (ISBN, CATEGORY_ID, BOOK_TITLE, AUTHOR_ID, PUBLISHER) values ('978-83-283-0253-2', 8, 'CSS3. Tworzenie nowoczesnych stron WWW', 12, 'Helion');
+insert into book (ISBN, CATEGORY_ID, BOOK_TITLE, AUTHOR_ID, PUBLISHER) values ('9788376420561', 7, 'Duch w sieci. Autobiografia największego hakera wszech czasów', 13, 'Helion');

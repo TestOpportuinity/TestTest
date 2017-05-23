@@ -6,6 +6,7 @@ package library.main;
 import library.dao.BookDAO;
 import library.dao.BookDAOImplementation;
 import library.model.Book;
+import library.model.Category;
 
 import java.util.List;
 
@@ -19,11 +20,15 @@ public class BookApp
     {
         System.err.println("Lista wszystkich książek");
         findAllBooks();
-        System.out.println();
+        System.out.println("/////////////////////////////////");
 
         System.err.println("wyszukiwanie książek ze słowem kluczowym 'Java' w nazwie:");
         searchBooks("Java");
-        System.out.println();
+        System.out.println("/////////////////////////////////");
+
+        System.err.println("Lista wszystkich kategorii");
+        findAllCategories();
+        System.out.println("/////////////////////////////////");
 
     }
 
@@ -37,5 +42,11 @@ public class BookApp
     {
         List<Book> books = bookDAO.searchBooksByKeyword(keyWord);
         books.forEach(System.out::println);
+    }
+
+    private static void findAllCategories()
+    {
+        List<Category> categories = bookDAO.findAllCategories();
+        categories.forEach(System.out::println);
     }
 }

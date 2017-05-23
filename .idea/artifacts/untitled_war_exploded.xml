@@ -7,6 +7,10 @@
         <element id="directory" name="classes">
           <element id="module-output" name="Biblioteka" />
         </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/mysql-connector-java-5.1.42/mysql-connector-java-5.1.42-bin.jar" />
+          <element id="library" level="project" name="JAX-WS-Apache Axis" />
+        </element>
       </element>
     </root>
   </artifact>

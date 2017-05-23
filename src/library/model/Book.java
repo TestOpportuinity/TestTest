@@ -65,6 +65,6 @@ public class Book
 
     public String toString()
     {
-        return "Książka - Identyfikator: " + ISBN + ",tytuł :" + bookTitle;
+        return "Książka - Identyfikator: " + ISBN + ", tytuł :" + bookTitle;
     }
 }

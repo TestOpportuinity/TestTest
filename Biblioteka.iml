@@ -23,5 +23,17 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="JAX-WS-Apache Axis" level="project" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/mysql-connector-java-5.1.42" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/mysql-connector-java-5.1.42/src" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/mysql-connector-java-5.1.42" recursive="false" />
+      </library>
+    </orderEntry>
   </component>
 </module>
