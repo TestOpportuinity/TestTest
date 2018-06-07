@@ -61,6 +61,7 @@ INSERT INTO `author` (`ID`, `firstName`, `lastName`) VALUES
 (22, 'Joshua', 'Bloch'),
 (23, 'Anil', 'Hemrajani'),
 (24, 'Noel', 'Kalicharan');
+(25, 'Bruce', 'Dang');
 
 -- --------------------------------------------------------
 
@@ -92,6 +93,7 @@ INSERT INTO `book` (`ISBN`, `CATEGORY_ID`, `BOOK_TITLE`, `AUTHOR_ID`, `PUBLISHER
 ('978-83-246-9806-6', 3, 'Java. Projektowanie aplikacji WWW', 1, 'Helion'),
 ('978-83-283-0253-2', 4, 'ABC Linux. Wydanie II', 2, 'Helion'),
 ('978-83-283-1250-0', 1, 'Black Hat Python. Język Python dla hakerów i pentesterów', 11, 'Helion');
+('978-83-283-0678-3', 7, 'Inżynieria odwrotna w praktyce. Narzędzia i techniki', 25, 'Helion);
 
 -- --------------------------------------------------------
 
