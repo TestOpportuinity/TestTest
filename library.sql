@@ -63,6 +63,7 @@ INSERT INTO `author` (`ID`, `firstName`, `lastName`) VALUES
 (24, 'Noel', 'Kalicharan');
 (25, 'Bruce', 'Dang');
 (26, 'Michael', 'Feathers'); 
+(27, 'Dawid', 'Farbaniec');
 
 -- --------------------------------------------------------
 
