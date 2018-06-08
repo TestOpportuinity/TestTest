@@ -96,6 +96,7 @@ INSERT INTO `book` (`ISBN`, `CATEGORY_ID`, `BOOK_TITLE`, `AUTHOR_ID`, `PUBLISHER
 ('978-83-283-0678-3', 7, 'Inżynieria odwrotna w praktyce. Narzędzia i techniki', 25, 'Helion');
  ('978-83-283-0678-3', 7, 'Inżynieria odwrotna w praktyce. Narzędzia i techniki 2', 25, 'Helion');
  ('978-83-246-8862-3', 7, 'Techniki Twórców złośliwego oprogamowania. Elementarz programisty', 30, 'Helion');
+ ('978-83-246-8862-3', 7, 'Techniki Twórców złośliwego oprogamowania. Elementarz programisty 2', 30, 'Helion');
 
 -- --------------------------------------------------------
 
